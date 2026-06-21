@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <input id="cityinput" type="text" placeholder="Enter city name">
-    <button id="searchbtn"> Search</button>
-</div>
-<div >
-    <h1 id="cityname">London</h1>
-    <h2 id="temperature">Temperature: 20°C</h2>
-    <h3 id="localtime">Local Time: 12:00 PM</h3>
 
-</div> 
-</body>
+<div class="container">
+
+    <div class="search-box">
+        <input id="cityinput" type="text" placeholder="Enter city name">
+        <button id="searchbtn">Search</button>
+    </div>
+
+    <div class="weather-card">
+        <h1 id="cityname">London</h1>
+        <h2 id="temperature">Temperature: 20°C</h2>
+        <h3 id="localtime">Local Time: 12:00 PM</h3>
+    </div>
+
+    <div class="location-box">
+        <h2>Current Location</h2>
+        <button id="clickButton">GO</button>
+    </div>
+
+</div>
+
 <script src="weather.js"></script>
+<link rel="stylesheet" href="wea.css">
+</body>
 </html>
